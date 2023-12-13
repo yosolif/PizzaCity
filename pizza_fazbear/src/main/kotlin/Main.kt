@@ -8,7 +8,7 @@ fun main() {
 
     while (true) {
         println("Добрый день! Выбираем город")
-        println("1. Москва\n2. Санкт-Петербург\n3. Ростов-на-Дону\n0. Выход программы")
+        println("1. Москва\n2. Санкт-Петербург\n3. Кизляр\n0. Выход программы")
 
         currentPizzaCity = when (readln()) {
             "1" -> pizzaMoscow
